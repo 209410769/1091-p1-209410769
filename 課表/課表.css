@@ -4,10 +4,11 @@
   box-sizing: border-box;
 }
 
-body th{
-    text-align: center;
+body tr th{
+  text-align: center;
 }
 
-body td{
-    text-align: center;
+body tr td{
+  text-align: center;
+  vertical-align: center;
 }
