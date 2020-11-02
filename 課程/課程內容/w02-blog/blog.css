@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+body .container {
   margin: 20px auto;
   padding: 20px;
   border: 20px solid #bdc3c7;
