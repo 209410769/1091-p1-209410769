@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+table{
+  text-align: center;
+}
 .td{
   border-color:black;
   border-style:solid;
@@ -42,13 +45,12 @@
 .tg-0pky{
   display: table-cell;
   border-color:inherit;
-  text-align:left;
+  text-align:center;
   vertical-align:top;
 }
 .tg-zw5y{
   display: table-cell;
   border-color:inherit;
   text-align:center;
-  text-decoration:underline;
   vertical-align:top;
 }
