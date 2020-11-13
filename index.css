@@ -33,7 +33,14 @@ nav{
     padding-top: var(--main-padding);
   }
 
-
+#main{
+  grid-area: main;
+  margin-top: 20px;
+  padding: 20px 20px ;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+  background: url(./photo-1472289065668-ce650ac443d2.jpeg ) ;
+}
 
 #content1{
   grid-area: content1;
@@ -52,7 +59,7 @@ nav{
   padding-top: var(--main-padding);
 }
 
-@media (max-width:550px){
+@media (max-width:800px){
   .container{
       grid-template-columns: 1fr;
       grid-template-rows: 0.4fr   1.2r 1.2fr;
